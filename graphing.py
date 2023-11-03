@@ -16,7 +16,7 @@ pInitial_arr = get_pInitial_arr(catalog_db)
 
 #Plot period against median_mass
 #----------------------------------------------------------------------------------
-plt.title("Median mass against barycentric period of ATNF Catalog sample")
+plt.title("Median Mass against Barycentric Period of ATNF Catalogue Sample")
 
 plt.xlabel("Log median_mass (Solar Mass Units)")
 x_axis = np.log10(catalog_db["median_mass"].astype("f"))
